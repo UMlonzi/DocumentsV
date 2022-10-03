@@ -2,18 +2,18 @@ import logo from './logo.svg';
 import './App.css';
 import Authentication from './pages/authentictaion/Authentication';
 import LandingPage from './pages/landingPage/LandingPage';
-import { BrowserRouter ,Routes,Route } from 'react-router-dom';
+import { Routes,Route } from 'react-router-dom';
+import DashBoardPage from './pages/dashBoard';
 function App() {
   return (
     <div className="App">
-   {/* <Tablecomponent/> */}
-   <BrowserRouter>
+   {/* <Tablecomponent*/}
    <Routes>
-    <Route path='/' exact element={<LandingPage/>}/>
+    <Route path='/DashBoard' exact element={<LandingPage/>}/>
     <Route path='/Authentication' element={<Authentication/>}/>
+    <Route path="/" element={<DashBoardPage/>}/>
    </Routes>
-   </BrowserRouter>
-   <Authentication/>
+
     </div>
   );
 }

@@ -6,7 +6,19 @@ function displayUplaodTable(){
   console.log("hello");
   return(
     <Box sx={{width:"100vw",height:"50vh",backgroundColor:"rgb(255, 255, 167)"}}>
+<table>
+    <th>
+    //=========================name=================
+    Document Name
+    </th>
+<th>
+    ===========================
+    </th>
+<th>
+    
+    </th>
 
+    </table>
     </Box>
   )
 }

@@ -6,7 +6,6 @@ import { BrowserRouter ,Routes,Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-   {/* <Tablecomponent/> */}
    <BrowserRouter>
    <Routes>
     <Route path='/' exact element={<LandingPage/>}/>

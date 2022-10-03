@@ -45,15 +45,16 @@ export default function Authentication({navigate}) {
   };
 
   const handleRegister = () => {
-    if (registerInformation.email !== registerInformation.confirmEmail) {
-      alert("Please confirm that email are the same");
-      return;
-    } else if (
-      registerInformation.password !== registerInformation.confirmPassword
-    ) {
-      alert("Please confirm that password are the same");
-      return;
-    }
+    // if (registerInformation.email !== registerInformation.confirmEmail) {
+    //   alert("Please confirm that email are the same");
+    //   return;
+    // } 
+    // else if (
+    //   registerInformation.password !== registerInformation.confirmPassword
+    // ) {
+    //   alert("Please confirm that password are the same");
+    //   return;
+    // }
     createUserWithEmailAndPassword(
       auth,
       registerInformation.email,

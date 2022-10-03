@@ -1,0 +1,16 @@
+.box1{
+    width: 540px;
+    height: 450px;
+    background-color: rgba(229, 229, 229, 1);
+    position: absolute;
+    top:600px;
+    left: 10px;
+}
+h2{
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top:6px;
+    left: 120px;
+    font-size: 2.5rem;
+    color:rgba(69, 155, 255, 1);
+}

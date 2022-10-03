@@ -38,14 +38,13 @@ const welcomeCard=()=>{
 const uplaodToBlockchainBoxes=()=>{
   return(
     <Box sx={{height:"100%",width:"50%",alignItems:"center",justifyContent:"space-around",display:"flex",flexDirection:"column"}}>
-               <Boxes color={"green"} title={"Verified"}/>
-        <Boxes color={"red"} title={"Rejected"}/>
-        <Boxes color={"darkgray"} title={"Pending"}/>
+        <Boxes color={"#02781E"} title={"Verified"}/>
+        <Boxes color={"#9E1215"} title={"Rejected"}/>
+        <Boxes color={"#3F3D3F"} title={"Pending"}/>
     </Box>
     )
     }
     
-
 
 // ==========================MUI file upload fun====================================
 const Tablecomponent=()=>{

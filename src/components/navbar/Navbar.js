@@ -26,9 +26,9 @@ function Navbar() {
         </nav>
         <h1>DocumentV</h1>
         <p>Quisque interfum nibh quis scelerisque mollis. <br></br> Etiam et sem vehicula, portitor ipsum eu, vehicula lacus</p>
-         <Button>
+         <button>
             Login
-         </Button>
+         </button>
          </div>
          
     </>

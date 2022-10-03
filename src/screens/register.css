@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: local("MontserratMedium"),url("../assest/font/Montserrat-Medium.ttf") format("opentype");
+    /* font-weight:200; */
+  }
+
+
+
+.main-container {
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container .Logo h1{
+    position: absolute;
+    width: 240px;
+    height: 43px;
+    left: 12.5rem;
+    top: 35px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 43px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.inner-container {
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    /* background-color: aqua; */
+    position: absolute;
+    width: 431px;
+    height: 750.51px;
+    left:80px;
+    top: 95px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.main-container .inner-container .signin-header{
+    position: absolute;
+    width: 332px;
+    height: 105px;
+    left: 124px;
+    top: 95px;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.main-container .inner-container .form{
+    align-items: center;
+    position: absolute;
+    width: 429px;
+    height: 325px;
+    top: 15em;
+    /* background-color: darkgoldenrod; */
+}
+
+.main-container .inner-container .form .input-fields-1{
+    position: absolute;
+    border: none ;
+    background-color: transparent;
+    border-bottom: solid;
+    color:#1B1B1B;
+    border-width: thin;
+    width: 330px;
+    height: 60px;
+    left: 123px;
+    font-family: 'Montserrat', sans-serif; 
+
+}
+
+.main-container .inner-container .form .input-fields-2{
+    position: absolute;
+    border: none ;
+    background-color: transparent;
+    border-bottom: solid;
+    color:#1B1B1B;
+    border-width: thin;
+    width: 330px;
+    height: 60px;
+    left: 123px;
+    top:7em;
+    font-family: 'Montserrat', sans-serif; 
+    
+
+}
+
+.main-container .inner-container .form ::placeholder{
+    color: #007BFF;
+    font-weight: 400;
+    position: relative;
+    padding-top: 12px;
+    font-family: 'Montserrat', sans-serif; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.main-container .inner-container .form button { 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    position: absolute;
+    width: 429px;
+    height: 53px;
+    top:20rem;
+    left:5rem;
+    background: #00B2FF;
+    border:none;
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+
+.main-container .right-container {
+    box-sizing: border-box;
+    position: absolute;
+    width: 757px;
+    height: 900px;
+    left: 683px;
+    top: 0px;
+    /* background: rgba(23, 33, 33, 0.15); */
+    background: url("../assest/nav/img2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size: 2000px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    /* background-image: url("../assest/nav/img.jpg"); */
+    z-index: 2;
+}
+
+
+
+.main-container .right-container-content {
+    position: absolute;
+    width: 569.07px;
+    height: 97.37px;
+    left: 16rem;
+    top: 620px;
+    color: #FFFFFF;
+    /* font-weight: 600; */
+    
+}

@@ -1,0 +1,100 @@
+.welcome{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.login-form h2{
+ color: #00b2ff;
+}
+.login-register-container{
+    background-color:white;
+    width: 70%;
+    padding: 5%;
+}
+.picture-login{
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+}
+.picture-login img{
+ border-radius: 20px;
+ width: 100%;
+ height: 100%;
+}
+.login-form{
+   width: 50%;
+   height: 100%;
+   margin: 5%;
+  
+}
+.login-input input{
+    color: #eeeeee;
+    margin: 5%;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+    width: 100%;
+    background-color: #eeeeee;
+}
+
+.login-part{
+    display: flex;
+    flex-direction: row;
+}
+.signing-buttons{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.sign-in-register-button{
+    border-radius: 40px;
+    background-color:#00b2ff ;
+    color: white;
+    border: none;
+    height: 25px;
+    width: 48%;
+    margin: 5px;
+
+}
+.cancel-button{
+    border-radius: 40px;
+    color:#00b2ff ;
+    background-color: transparent;
+    border-color: #00b2ff;
+    height: 25px;
+    width: 48%;
+}
+.create-account-button{
+    color: #00b2ff;
+    border: none;
+    background: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+}
+.sign-in-register-button1{
+    border-radius: 40px;
+    background-color:#00b2ff ;
+    color: white;
+    border: none;
+    height: 25px;
+    width: 45%;
+    margin: 5px;
+}
+.cancel-button1{
+    border-radius: 40px;
+    color:#00b2ff ;
+    background-color: transparent;
+    border-color: #00b2ff;
+    height: 25px;
+    width: 45%;
+}

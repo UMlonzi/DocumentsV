@@ -23,7 +23,7 @@ export default function Authentication({navigate}) {
   useEffect(() => {
     auth.onAuthStateChanged((user) => {
       if (user) {
-        navigate("/");
+        navigate("/LandingPage");
       }
     });
   }, []);

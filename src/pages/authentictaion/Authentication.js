@@ -148,8 +148,9 @@ export default function Authentication({navigate}) {
         </div>
          
         <div className='login-form'>
-                 <h2>Login</h2>
+               
         <div className='login-input'>
+            <h2>Login</h2>
             <input
              type="email" 
              placeholder="Email" 

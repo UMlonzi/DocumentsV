@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import Navbar from '../../components/navbar/Navbar';
 // import './home.css'
 // import About from '../../components/about/About';
@@ -16,6 +17,12 @@ function LandingPage() {
       <Activities/>
       <Footer/> */}
     </div>
+=======
+
+function LandingPage() {
+  return (
+    <div>LandingPage</div>
+>>>>>>> 6e3bbad4be9ec75a2d478afcab92dd38280e5558
   )
 }
 

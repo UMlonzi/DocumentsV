@@ -11,13 +11,13 @@ function App() {
       
    <BrowserRouter>
    {/* <VeriAuthentication/> */}
-   <VeriHome/>
-   {/* <Routes>
+   {/* <VeriHome/> */}
+   <Routes>
     <Route path='/' exact element={<LandingPage/>}/>
     <Route path='/Authentication' element={<Authentication/>}/>
     <Route path='/Profile' element={<Profile/>}/>      
     <Route  path='veriAuthentication' exact element={<VeriAuthentication/>}/>
-   </Routes> */}
+   </Routes>
    </BrowserRouter>
     </div>
   )

@@ -5,7 +5,7 @@
 .box1{
     width: 540px;
     height: 400px;
-    background-color: rgba(229, 229, 229, 1);
+    background-color: whitesmoke;
     position: absolute;
     
 }
@@ -22,7 +22,7 @@
 .box2{
     width: 540px;
     height: 400px;
-    background-color: rgba(229, 229, 229, 1);
+    background-color: whitesmoke;
     position: absolute;
     right: 0%;
     padding: 0;

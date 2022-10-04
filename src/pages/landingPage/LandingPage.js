@@ -16,6 +16,7 @@ function LandingPage() {
       <Navbar/>
     <Body/>
     <Banner/>
+    
     </div>
 
     )

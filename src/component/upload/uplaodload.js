@@ -24,7 +24,9 @@ function displayUplaodTable(){
 <td style={{width:"100px",textAlign:"center"}}><DescriptionIcon sx={{fontSize:"5rem"}}/></td>
 <td>Matric certificate</td>
 <td>7 Sep 2022</td>
-<td style={{paddingLeft:'5%'}}><h3 style={{width:"8rem",maxHeight:"7.0rem",borderRadius:"100%",backgroundColor:"skyblue",textAlign:"center"}}>SN</h3></td>
+<td style={{paddingLeft:'5%'}}>
+<h3
+ style={{width:"8rem",fontSize:"30px",borderRadius:"100%",backgroundColor:"skyblue",textAlign:"center"}}>SN</h3></td>
 <td><h4>Upload complete</h4></td>
     </tr>
 </table>

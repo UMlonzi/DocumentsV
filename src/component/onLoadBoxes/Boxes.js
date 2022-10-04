@@ -14,6 +14,5 @@ const Boxes = ({color="gray",title}) => {
  <Box sx={{marginLeft:"10px",height:"30px",backgroundColor:"lightgray",width:"90%"}}></Box>
    </Box>
   )
-}
-
+};
 export default Boxes

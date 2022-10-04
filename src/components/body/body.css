@@ -37,11 +37,12 @@
     color:rgba(69, 155, 255, 1);
 }
 .line{
-    width: 15%;
+    width: 20%;
     height: 1%;
     background-color: rgba(246, 177, 0, 1);
     position: absolute;
     top:16%;
+    left: 40px;
 }
 .p2{
     

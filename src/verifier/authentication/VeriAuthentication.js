@@ -6,11 +6,11 @@ import {
 import { auth } from "../../firebase";
 import pic1 from '../../assets/login.jpg';
 import pic2 from '../../assets/register.jpg'
-import './authentication.css';
+import './veriauthentication.css';
 import { useNavigate } from "react-router";
 // import TodoSVG from '../assets/todo-svg.svg'
 
-export default function Authentication() {
+export default function VeriAuthentication() {
   const [email, setEmail] = useState("");
   const navigate=useNavigate();
   const [password, setPassword] = useState("");

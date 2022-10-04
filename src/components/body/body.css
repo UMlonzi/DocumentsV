@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box1{
+    width: 540px;
+    height: 400px;
+    background-color: rgba(229, 229, 229, 1);
+    position: absolute;
+    top:66%;
+    left: 2%;
+}
+.box1 h2{
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top:6px;
+    left: 10px;
+    font-size: 2.5rem;
+    color:rgba(69, 155, 255, 1);
+    padding: 0;
+    margin: 0;
+}
+.box2{
+    width: 540px;
+    height: 400px;
+    background-color: rgba(229, 229, 229, 1);
+    position: absolute;
+    top:66%;
+    right: 2%;
+    padding: 0;
+    margin: 0;
+}
+.box2 h2{
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top:6px;
+    left: 10px;
+    font-size: 2.5rem;
+    color:rgba(69, 155, 255, 1);
+}
+.line{
+    width: 15%;
+    height: 1%;
+    background-color: rgba(246, 177, 0, 1);
+    position: absolute;
+    top:16%;
+}
+.p2{
+    
+    position: absolute;
+    top:22%;
+    right: 2%;
+    padding: 0;
+    margin: 0;
+    color:rgba(69, 155, 255, 1);
+
+}
+

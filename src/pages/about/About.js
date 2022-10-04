@@ -11,11 +11,11 @@ const Modal = ({ open, onClose }) => {
         }}
         className='modalContainer'
       >
-        <img src={nft} alt='/' />
         <div className='modalRight'>
           <p className='closeBtn' onClick={onClose}>
             X
           </p>
+          
           <div className='content'>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             <h1>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </h1>

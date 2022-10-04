@@ -6,11 +6,13 @@ import {
 import { auth } from "../../firebase";
 import pic1 from '../../assets/login.jpg';
 import pic2 from '../../assets/register.jpg'
-import './authentication.css'
+import './authentication.css';
+import { useNavigate } from "react-router";
 // import TodoSVG from '../assets/todo-svg.svg'
 
-export default function Authentication({navigate}) {
+export default function Authentication() {
   const [email, setEmail] = useState("");
+  const navigate=useNavigate();
   const [password, setPassword] = useState("");
   const [isRegistering, setIsRegistering] = useState(false);
   const [registerInformation, setRegisterInformation] = useState({
@@ -20,13 +22,13 @@ export default function Authentication({navigate}) {
     // confirmPassword: ""
   });
 
-  useEffect(() => {
-    auth.onAuthStateChanged((user) => {
-      if (user) {
-        navigate("/LandingPage");
-      }
-    });
-  }, []);
+  // useEffect(() => {
+  //   auth.onAuthStateChanged((user) => {
+  //     if (user) {
+  //       navigate("/");
+  //     }
+  //   });
+  // }, []);
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
@@ -39,7 +41,7 @@ export default function Authentication({navigate}) {
   const handleSignIn = () => {
     signInWithEmailAndPassword(auth, email, password)
       .then(() => {
-        navigate("/");
+        navigate("/Home");
       })
       .catch((err) => alert(err.message));
   };
@@ -61,10 +63,13 @@ export default function Authentication({navigate}) {
       registerInformation.password
     )
       .then(() => {
-        navigate("/");
+        navigate("/Home");
       })
       .catch((err) => alert(err.message));
   };
+  const navigateTohome=()=>{
+    navigate('/')
+  }
 
   return (
     <div className="welcome">
@@ -170,7 +175,7 @@ export default function Authentication({navigate}) {
             <button className="sign-in-register-button" onClick={handleSignIn}>
               Sign In
             </button>
-            <button className='cancel-button'>cancel</button>
+            <button className='cancel-button' onClick={navigateTohome}>cancel</button>
             </div>
             <div>
                 <h4>Dont have an account ?</h4>

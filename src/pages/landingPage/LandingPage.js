@@ -4,8 +4,7 @@ import Navbar from '../../components/navbar/Navbar';
 // import './home.css'
  import Body from '../../components/body/Body';
  import Banner from '../../components/banner/Banner';
-// import Activities from '../../components/activities/Activities';
- import Footer from '../../components/footer/Footer';
+//  import Footer from '../../components/footer/Footer';
 
 function LandingPage() {
     return (
@@ -14,7 +13,7 @@ function LandingPage() {
       <Navbar/>
     <Body/>
     <Banner/>
-    <Footer/>
+    {/* <Footer/> */}
     </div>
 
     )

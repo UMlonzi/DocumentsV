@@ -20,7 +20,12 @@ const navigate = useNavigate();
          <h5 className='header'>
                Why Our Clients Choose Us
             </h5>
-         </div>
+            <div className='line2' />
+      
+       
+                </div>
+                
+          
          
     </>
   )

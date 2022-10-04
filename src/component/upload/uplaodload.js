@@ -3,29 +3,52 @@ import { borderBottom } from '@mui/system';
 import React from 'react';
 import Welocome from "../../images/welcomeIMG.svg";
 import Boxes from '../onLoadBoxes/Boxes';
+import FileOpenIcon from '@mui/icons-material/FileOpen';
+import "./uploadload.css";
+import DescriptionIcon from '@mui/icons-material/Description';
+
 // ========================================upload files table====================
 function displayUplaodTable(){
     console.log("hello");
     return(
-        <Box sx={{width:"100vw",height:"50vh",backgroundColor:"rgb(255, 255, 167)"}}>
-
+        <Box sx={{marginLeft:"2%",maxWidth:"95%",minHeight:"20rem",backgroundColor:"#F5F5F5"}}>
+<table className='table'>
+    <tr>
+        <th></th>
+        <th>Document Name</th>
+        <th>Created On</th>
+        <th>Action</th>
+        <th>Status</th>
+    </tr>
+    <tr>
+<td style={{width:"100px",textAlign:"center"}}><DescriptionIcon sx={{fontSize:"5rem"}}/></td>
+<td>Matric certificate</td>
+<td>7 Sep 2022</td>
+<td style={{paddingLeft:'5%'}}><h3 style={{width:"8rem",maxHeight:"7.0rem",borderRadius:"100%",backgroundColor:"skyblue",textAlign:"center"}}>SN</h3></td>
+<td><h4>Upload complete</h4></td>
+    </tr>
+</table>
     </Box>
   )
 };
 const welcomeCard=()=>{
     return(
+        <>
         <Box style={{height:"100%",width:"50%",display:"flex",alignItems:"center",flexDirection:"column",justifyContent:"space-around"}}>       
-<Box sx={{display:"flex" ,borderBottom:"2px solid rgba(128,128,128,0.4)",padding:"7px",minWidth:"30em",maxWidth:"800px"
-,height:"20vh",backgroundColor:"#ECF5FF",alignItems:"center",justifyContent:"space-between",flexDirection:"row"}}>
+<Box sx={{display:"flex" ,borderBottom:"2px solid rgba(128,128,128,0.4)",padding:"7px",minWidth:"300px",maxWidth:"800px"
+,height:"200px",backgroundColor:"#ECF5FF",alignItems:"center",justifyContent:"space-between",flexDirection:"row"}}>
     <Box 
     sx={{display:"flex",flexDirection:"column",textAlign:"start",lineHeight:"30x"}}>
 <Box component="h2">Welcome Back, </Box>
 <p style={{fontSize:"20px"}}>get the power to take your BlockDoc to the next level</p>
     </Box>
-<img src={Welocome} alt="welcom image" style={{width:"200px",height:"200px",alignSelf:"end",}}/>
+<img src={Welocome} alt="welcom" style={{width:"200px",height:"200px",alignSelf:"end",}}/>
 </Box>
-    <Box sx={{display:"flex" ,border:"2px dotted rgba(128,128,128,0.4)"
-    ,height:"20vh",minWidth:"37em",maxWidth:"800px",backgroundColor:"#ECF5FF",alignItems:"center",justifyContent:"center",flexDirection:"column"}}>
+    <Box sx={{position:"relative",display:"flex" ,border:"4px dotted rgba(128,128,128,0.4)"
+    ,height:"200px",minWidth:"700px",maxWidth:"800px",backgroundColor:"#ECF5FF",
+    alignItems:"center",justifyContent:"center",flexDirection:"column"}}>
+        <h2 style={{position:"absolute",top:"-3em" ,left:"0"}}>Upload file</h2>
+        <FileOpenIcon sx={{color:"rgba(128,128,128,0.4)",fontSize:"4rem"}}/>
     <Box component="h2"> uplaod your files here</Box>
     <Button size='large' variant="contained" component="label" sx={{width:"150px",height:"60px",color:"white"}}> 
     Upload File
@@ -33,11 +56,12 @@ const welcomeCard=()=>{
     </Button>
     </Box>
         </Box>
+        </>
     )
 };
 const uplaodToBlockchainBoxes=()=>{
   return(
-    <Box sx={{height:"100%",width:"50%",alignItems:"center",justifyContent:"space-around",display:"flex",flexDirection:"column"}}>
+    <Box sx={{height:"100%",width:"50%",alignItems:"flex-start",justifyContent:"space-around",display:"flex",flexDirection:"column"}}>
         <Boxes color={"#02781E"} title={"Verified"}/>
         <Boxes color={"#9E1215"} title={"Rejected"}/>
         <Boxes color={"#3F3D3F"} title={"Pending"}/>
@@ -57,8 +81,8 @@ const Tablecomponent=()=>{
  
 {uplaodToBlockchainBoxes()}
     </div>
+    {displayUplaodTable()}
     </>
   )
 }
 export default Tablecomponent;
-{/*  */}

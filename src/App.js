@@ -13,7 +13,6 @@ function App() {
     <Route path='/Authentication' element={<Authentication/>}/>
     <Route path="/" element={<DashBoardPage/>}/>
    </Routes>
-
     </div>
   );
 }

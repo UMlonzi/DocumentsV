@@ -1,12 +1,12 @@
-
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './App.css';
+// import './App.css';
 import Authentication from './pages/authentictaion/Authentication';
 import Profile from './pages/profile/Profile';
 import LandingPage from './pages/landingPage/LandingPage';
-
+import fandingPage from './pages/landingPage/LandingPage';
 import Navigation from './pages/navigationbar/Navigation';
 import { BrowserRouter ,Routes,Route } from 'react-router-dom';
+//import Footer from './pages/footer/footer';
+//import './pages/footer.css'; 
 
 
 

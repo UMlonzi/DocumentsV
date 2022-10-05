@@ -9,16 +9,19 @@ function Banner(){
     const[btnPop, setBtnPop]=useState(false)
 const navigate = useNavigate();    
     return (
-        <>
+    
         <div className='backgroundBanner'>
-            <div>
-            <h5 className='hBanner'>
+        
+        <div className='para'>
+            <h1>
             Docuify
-            </h5>
-            <div className='line2' />
-            <p className='para'>Our company solves existing problem of <br></br>  verifying  the  validity of digital assets 
+            </h1>
+            <div>
+            {/* <div className='line2' /> */}
+            <p>Our company solves existing problem of <br></br>  verifying  the  validity of digital assets 
             <br></br>  at a very low implementation cost.... 
             </p>
+            </div>
 
             <button onClick={()=>setBtnPop(true)}  className='ReadMore'>
          Read More
@@ -33,20 +36,16 @@ const navigate = useNavigate();
                          </p>
                          </div>
                      </About>
-            </div>
-            <div>
-         <h5 className='header'>
+         </div>
+            <div className='separate'>
+         <h1>
                Why Our Clients Choose Us
-            </h5>
+            </h1>
             </div>
            
       
        
     </div>
-                
-          
-         
-    </>
   )
 }
 

@@ -9,8 +9,8 @@ function Body(){
         <>
         <div className='backgroundimg'>
         <div className='cbgffdf'>
-        <h1>DocumentV</h1>
-        <p>Quisque interfum nibh quis scelerisque mollis. <br></br> Etiam et sem vehicula, portitor ipsum eu, vehicula lacus</p>
+        <h1>Docuify</h1>
+        <p>Blockchain Based Application</p>
         <button onClick={() => navigate("/Authentication")} className='Login1'>
             Login
          </button>
@@ -34,7 +34,9 @@ function Body(){
         <h2> We will collaborate with you</h2>
         <div className='line'/>
         <p className='p2'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        We make sure to listen our customers by giving them the best service and maintaining the confidentiality of your personal documents.
+We are prepare to give timely responses to questions, concerns and ensure follow up to our clients needs.
+ 
         </p>
         </div>
          </div>

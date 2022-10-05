@@ -24,32 +24,45 @@
     width: 30%;
     margin-right: 4%;
     height: 100%;
-    padding: 5%;
-    background-color: whitesmoke;
+    padding: 4%;
     justify-content: center;
-    text-align: center;align-items: center;
+    text-align: center;
+    align-items: center;
     color:rgba(69, 155, 255, 1);;
 }
 .box1{
     width: 30%;
-    padding: 5%;
+    padding: 4%;
     margin-left: 4%;
     height: 100%;
-    background-color: whitesmoke;
     justify-content: center;
-    text-align: center;align-items: center;
+    text-align: center;
+    align-items: center;
     color:rgba(69, 155, 255, 1);;
+}
+.box1 .p2{
+    padding: 5%;
+}
+.box1 h2{
+    padding-bottom: 3%;
+
+}
+.box .p2{
+    padding: 5%;
+}
+.box h2{
+    padding-right: 43%;
+
 }
 .pic{
     height: 100%;
     width: 80%;
 }
 .line{
-    width: 20%;
-    height: 1%;
+    width: 25%;
+    height: 2%;
     background-color: rgba(246, 177, 0, 1);
     top:16%;
-    left: 40px;
 }
 
 

@@ -57,20 +57,10 @@ function Navbar(){
                     <About trigger={btnPop} setTrigger={setBtnPop}>
                          <div className='popup-details'>
                          <p>
-                             ghfdhgchgdcvhgdcdvcdvjhjv
-                             dhfjhbvjfdbjhbfvbjhfdjvjhfdvjhjhfvjhjhjhfj
-                             hgzchgvchgzxhgvcjhzcxvjhvvhghggjhgjhgjhgjhgjhgjh
-                             udfuycvuydvcuyvuyubiubibiudbiubcbiubiub
-                             hwyregtiuygruyegiuihwoeuywfeuywgvr
-                             hghgdvfebiugfwveuyvuyvefuyvuyef
-                             eiugfuyefuyeufuyeuyfjfdr
-                             kvdhytfvdvfjhdsvjhdsvhgds
-                             jgffdvhgdvfhgdvfvdawjdfvhedcytaefvfj
-                             ewfdsavchgdsvfjhdsvfhdsaf
-                             hgvdsahfgsvfhgdsfedsahgfdsf
-                             dfcvdsahfajhvfjd vfjhdvfytfedvjhr
-                             egdue87r8t384hgs gdw76r376t85g3gew hgvdsahfgsvfhgdsfedsahgfdsfsdsajhdwvsjf
-                             ehvfhgdsafvjhshjfdsgdgfdgd
+                         Our company solves existing problem  of  verifying  the  validity of digital <br></br> assets (documents) at a very low implementation cost. 
+                         <br></br><br></br>  The  characteristics  of  our company which is the blockchain  (the  permanent decentralized  ledger  of 
+                        information), these  digital signatures  can  be  accessed <br></br>  by anyone. 
+                        <br></br> Anyone  with  access  to  the blockchain can  now  verify the authenticity  of  a  digital  asset without  having  to  rely  on  trusted intermediaries.
                          </p>
                          </div>
                      </About> 

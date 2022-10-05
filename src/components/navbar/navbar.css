@@ -19,13 +19,15 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	height: 80px;
-	padding: 0 2rem;
+	/* padding-left: 66%; */
 	background-color: transparent;
 	color: var(--textColor);
 }
 
 nav a {
-	margin: 0 1rem;
+	margin: 2rem;
+	position: relative;
+	right: -130%;
 	color: var(--textColor);
 	text-decoration: none;
     font-size: xx-large;
@@ -62,12 +64,30 @@ nav {
     color: var(--textColor);
     font-size: xx-large;
     font-weight: bold;
+	position: relative;
+	right: -130%;
+
+}
+header .logo {
+	margin-right:130%;
+	margin-top: 30%;
+	height: 3%;
+	width:100% ;
 }
 
 @media only screen and (max-width: 1024px) {
 	header .nav-btn {
 		visibility: visible;
 		opacity: 1;
+	}
+	.about-btn{
+		border: none;
+		background: none;
+		color: var(--textColor);
+		font-size: xx-large;
+		font-weight: bold;
+		position: relative;
+		left: 10%;
 	}
 
 	header nav {
@@ -98,11 +118,13 @@ nav {
 
 
 		nav a {
-            margin: 0 1rem;
+            margin:  1rem;
             color: var(--textColor);
             text-decoration: none;
             font-size: xx-large;
             font-weight: bold;
+			position: relative;
+			left: 10%;
         }
 	
 }

@@ -1,0 +1,118 @@
+.backgroundimg{
+    background-image: 
+    linear-gradient(45deg,
+    rgba(69, 155, 255, 0.5),
+   rgba(128, 0, 128, 0.5)), url("../../images/55c580174d15022518aa8e079905f6d1.jpg");
+    background-repeat: no-repeat;
+    height: 35rem;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding-top:15%;
+}
+.border{
+    width: 100%;
+    height: 41vh;
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: row;
+
+}
+.box{
+    width: 30%;
+    margin-right: 4%;
+    height: 100%;
+    padding: 4%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color:rgba(69, 155, 255, 1);;
+}
+.box1{
+    width: 30%;
+    padding: 4%;
+    margin-left: 4%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color:rgba(69, 155, 255, 1);;
+}
+.box1 .p2{
+    padding: 5%;
+}
+.box1 h2{
+    padding-bottom: 3%;
+
+}
+.box .p2{
+    padding: 5%;
+}
+.box h2{
+    padding-right: 43%;
+
+}
+.pic{
+    height: 100%;
+    width: 80%;
+}
+.line{
+    width: 25%;
+    height: 2%;
+    background-color: rgba(246, 177, 0, 1);
+    top:16%;
+}
+
+
+/*second part with login button*/
+.logo{
+    width: 20rem;
+    height: 10rem;
+   padding: 20px;
+}
+
+.cbgffdf h1{
+    color: white;
+    right: 50%;
+    top: 10rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3.1rem;
+}
+.cbgffdf p{
+    color: white;
+    right: 40%;
+    padding: 10px;
+    top: 15rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+}
+/* a:hover {
+    background-color: grey;
+
+  } */
+  .Login1{
+    width: 16rem;
+    height: 4rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    color: rgba(0, 178, 255, 1);
+    border-color:rgba(0, 178, 255, 1);
+    background-color: transparent;
+    border-radius: 58px;
+    font-weight: 600;
+  }
+  .Login1:hover {
+    background-color: white
+
+  }
+  .g{
+    color: rgba(246, 177, 0, 1);
+  }
+  
+
+
+
+
+

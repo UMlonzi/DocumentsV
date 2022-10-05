@@ -5,7 +5,7 @@
 .box1{
     width: 540px;
     height: 400px;
-    background-color: rgba(229, 229, 229, 1);
+    background-color: whitesmoke;
     position: absolute;
     
 }
@@ -22,7 +22,7 @@
 .box2{
     width: 540px;
     height: 400px;
-    background-color: rgba(229, 229, 229, 1);
+    background-color: whitesmoke;
     position: absolute;
     right: 0%;
     padding: 0;
@@ -37,11 +37,12 @@
     color:rgba(69, 155, 255, 1);
 }
 .line{
-    width: 15%;
+    width: 20%;
     height: 1%;
     background-color: rgba(246, 177, 0, 1);
     position: absolute;
     top:16%;
+    left: 40px;
 }
 .p2{
     

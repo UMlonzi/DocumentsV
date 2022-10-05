@@ -11,7 +11,7 @@ import DescriptionIcon from '@mui/icons-material/Description';
 function displayUplaodTable(){
     console.log("hello");
     return(
-        <div className='tableDesign' >
+        <div className='tableDesign'>
 <table className='table'>
     <tr>
         <th></th>
@@ -24,10 +24,9 @@ function displayUplaodTable(){
 <td style={{width:"100px",textAlign:"center"}}><DescriptionIcon sx={{fontSize:"5rem"}}/></td>
 <td>Matric certificate</td>
 <td>7 Sep 2022</td>
-<td style={{paddingLeft:'3.8%'}}>
-<h3
- style={{width:"8rem",height:"4rem",lineHeight:"60px",fontSize:"30px",borderRadius:"100%",backgroundColor:"skyblue",textAlign:"center"}}>SN</h3></td>
-<td><h4>Upload complete</h4></td>
+<td style={{paddingLeft:'3.3%'}}>
+<h3 style={{width:"8rem",height:"4rem",lineHeight:"60px",fontSize:"30px",borderRadius:"100%",backgroundColor:"skyblue",textAlign:"center"}}>SN</h3></td>
+<td><h4 className='tableHeader4'>Upload complete</h4></td>
     </tr>
 </table>
     </div>
@@ -62,6 +61,7 @@ const welcomeCard=()=>{
     )
 };
 const uplaodToBlockchainBoxes=()=>{
+
   return(
     <Box sx={{height:"100%",width:"50%",alignItems:"flex-start",justifyContent:"space-around",display:"flex",flexDirection:"column"}}>
         <Boxes color={"#02781E"} title={"Verified"}/>

@@ -11,7 +11,7 @@ import DescriptionIcon from '@mui/icons-material/Description';
 function displayUplaodTable(){
     console.log("hello");
     return(
-        <Box sx={{marginLeft:"2%",maxWidth:"95%",minHeight:"20rem",backgroundColor:"#F5F5F5"}}>
+        <div className='tableDesign' >
 <table className='table'>
     <tr>
         <th></th>
@@ -24,13 +24,13 @@ function displayUplaodTable(){
 <td style={{width:"100px",textAlign:"center"}}><DescriptionIcon sx={{fontSize:"5rem"}}/></td>
 <td>Matric certificate</td>
 <td>7 Sep 2022</td>
-<td style={{paddingLeft:'5%'}}>
+<td style={{paddingLeft:'3.8%'}}>
 <h3
- style={{width:"8rem",fontSize:"30px",borderRadius:"100%",backgroundColor:"skyblue",textAlign:"center"}}>SN</h3></td>
+ style={{width:"8rem",height:"4rem",lineHeight:"60px",fontSize:"30px",borderRadius:"100%",backgroundColor:"skyblue",textAlign:"center"}}>SN</h3></td>
 <td><h4>Upload complete</h4></td>
     </tr>
 </table>
-    </Box>
+    </div>
   )
 };
 const welcomeCard=()=>{

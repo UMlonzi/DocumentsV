@@ -4,7 +4,7 @@ import { Box } from '@mui/system'
 const Boxes = ({color="gray",title}) => {
     const [count,setCount]=useState(0);
   return (
-    <Box sx={{background:color,width:"20rem",height:"10rem",lineHeight:"3rem"}}>
+    <Box sx={{background:color,width:"20rem",height:"10rem",lineHeight:"4.1rem"}}>
 <h2 style={{color:"white"}}>
     {title}
     </h2>

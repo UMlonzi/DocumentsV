@@ -13,14 +13,20 @@ const navigate = useNavigate();
             <h5 className='hBanner'>
                 DocumentV
             </h5>
+            
             <button onClick={() => navigate("/About")} className='ReadMore'>
          Read More
          </button>
-         <p>Lorem Ipsum is simply dummy <br></br>text of the printing <br></br> and typesetting industry.</p>
+         <p className='para'>Lorem Ipsum is simply dummy <br></br>text of the printing <br></br> and typesetting industry.</p>
          <h5 className='header'>
                Why Our Clients Choose Us
             </h5>
-         </div>
+            <div className='line2' />
+      
+       
+                </div>
+                
+          
          
     </>
   )

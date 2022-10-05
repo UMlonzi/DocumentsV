@@ -12,15 +12,18 @@ const navigate = useNavigate();
         <div className='backgroundBanner'>
             <div>
             <h5 className='hBanner'>
-                DocumentV
+            Docuify
             </h5>
             <div className='line2' />
+            <p className='para'>Our company solves existing problem of <br></br>  verifying  the  validity of digital assets 
+            <br></br>  at a very low implementation cost.... 
+            </p>
+
             <button onClick={() => navigate("/About")} className='ReadMore'>
          Read More
          </button>
             </div>
             <div>
-         <p className='para'>Lorem Ipsum is simply dummy <br></br>text of the printing <br></br> and typesetting industry.</p>
          <h5 className='header'>
                Why Our Clients Choose Us
             </h5>

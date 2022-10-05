@@ -41,7 +41,7 @@ export default function Authentication() {
   const handleSignIn = () => {
     signInWithEmailAndPassword(auth, email, password)
       .then(() => {
-        navigate("/Home");
+        navigate("/Dashboard");
       })
       .catch((err) => alert(err.message));
   };
@@ -63,7 +63,7 @@ export default function Authentication() {
       registerInformation.password
     )
       .then(() => {
-        navigate("/Home");
+        navigate("/Dashboard");
       })
       .catch((err) => alert(err.message));
   };

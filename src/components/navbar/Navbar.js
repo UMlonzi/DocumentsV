@@ -42,7 +42,7 @@ const Navbar = (props) => {
             </li>
            
             <li>
-                <a href='./Authentication'>Login/Register</a>
+                <a href='./Authentication'>Login</a>
             </li>
         </ul>
         </nav>

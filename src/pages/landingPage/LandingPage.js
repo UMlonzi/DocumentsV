@@ -18,8 +18,8 @@ function LandingPage() {
     return (
     <div className='nav'>
       <Navbar/>
-    <Body/>
-    <Banner/>
+      <Body/>
+      <Banner/>
     {/* <Footer/> */}
     </div>
 

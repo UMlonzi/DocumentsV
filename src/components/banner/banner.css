@@ -22,6 +22,7 @@ padding: 2%;
 .separate{
 width: 50%;
 text-align: left;
+background-color: red;
 }
 .para h1 {
   font-family:'Times New Roman', Times, serif;
@@ -57,4 +58,40 @@ text-align: left;
 .ReadMore:hover {
   background-color:rgba(0, 178, 255, 1);
 
+}
+.documents{
+  width: 10%;
+text-align: left;
+background-color: black;
+margin: 2%;
+right: 40%;
+}
+/* .inside h1{
+  padding-top: -12%;
+  margin-top: -12%;
+  padding-right: 10%;
+  background-color: aquamarine;
+} */
+.tick{
+  width: 10%;
+  text-align: left;
+  background-color: black;
+  margin: 1%;
+  right: 40%;
+}
+.legal{
+  width: 10%;
+  text-align: left;
+  margin: 2%;
+  right: 40%;
+  background-color: black;
+
+}
+.inside{
+  display: flex;
+  flex-direction: column;
+}
+.img-text{
+  display: flex;
+  flex-direction: row;
 }

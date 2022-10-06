@@ -1,8 +1,11 @@
-
 import './banner.css'
  import { useNavigate } from "react-router-dom";
  import React,{useState,useRef} from 'react';
  import About from '../../pages/about/About';
+ import documents from '../../images/download-removebg-preview.png';
+ import tick from '../../images/132-1328843_orange-transparent-checkmark-orange-check-box-png-removebg-preview.png';
+ import legal from '../../images/5-58704_legal-operations-law-orange-icon-png-removebg-preview.png';
+
 
 function Banner(){
     const navRef = useRef();
@@ -41,6 +44,24 @@ const navigate = useNavigate();
          <h1>
                Why Our Clients Choose Us
             </h1>
+            <div className='inside'>
+                <div className='img-text'>
+            <img className='documents'   src={documents} alt="documents"/>
+            <h1>hvhjvjhv</h1>
+            </div>
+            <div className='img-text'>
+            <img className='tick'   src={tick} alt="tick"/>
+            <h1>hvhjvjhv</h1>
+            </div>
+            <div className='img-text'>
+            <img className='legal'   src={legal} alt="legal"/>
+            <h1>hvhjvjhv</h1>
+            </div>
+            </div>
+           
+
+            
+
             </div>
            
       

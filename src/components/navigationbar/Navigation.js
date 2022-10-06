@@ -11,12 +11,9 @@ function Navigation () {
 	const showNavbar = () => {
 		navRef.current.classList.toggle("responsive_nav");
 	};
-<<<<<<< HEAD
 
     const[btnPop, setBtnPop]=useState(false)
-=======
-	
->>>>>>> 996eeb78f56f56d1af1ea0c6fa6e94b34bdf6f64
+
 	return (
 		<div className="backgroundimg1">
 
@@ -54,7 +51,7 @@ function Navigation () {
 )
 }
 
-<<<<<<< HEAD
+
 // 		<header>
 // 			{/* <h3>LOGO</h3> */}
 //       <img src={Logo} alt="logo" />
@@ -78,6 +75,3 @@ function Navigation () {
 // }
 
 export default Navigation;
-=======
-export default Navigation;
->>>>>>> 996eeb78f56f56d1af1ea0c6fa6e94b34bdf6f64

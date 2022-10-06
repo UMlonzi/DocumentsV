@@ -8,8 +8,8 @@ import Navigation from './pages/navigationbar/Navigation';
 import {Routes,Route } from 'react-router-dom';
 import DashBoardPage from './pages/dashBoard';
 import VeriAuthentication from './verifier/authentication/VeriAuthentication';
-// import VeriHome from './verifier/veriHomepage/VeriHome';
-
+import VeriHome from './verifier/veriHomepage/VeriHome';
+//import Footer from './pages/footer/Footer';
 function App() {
   return (
     <div className="App">

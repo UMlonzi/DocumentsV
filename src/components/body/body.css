@@ -92,6 +92,7 @@
     background-color: grey;
 
   } */
+
   .Login1{
     width: 16rem;
     height: 4rem;
@@ -109,6 +110,9 @@
   }
   .g{
     color: rgba(246, 177, 0, 1);
+  }
+  .cbgffdf{
+    text-align: center;
   }
   
 

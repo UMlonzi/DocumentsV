@@ -1,7 +1,7 @@
 import React,{useState,useRef} from 'react';
 import {FaBars,FaTimes} from 'react-icons/fa'
 import './navbar.css'
-  import logo from '../../images/icon.png';
+  import logo from '../../images/logo.png';
 import { useNavigate } from "react-router-dom";
 import About from '../../pages/about/About';
 
@@ -49,12 +49,12 @@ function Navbar(){
         //         <FaBars/>
         //     </button>
         //     </header>
-        <header>
+        <header className='header1'>
 			<nav ref={navRef}>
                 <div className='log'>
                 <img className='logo'   src={logo} alt="logo"/>
                                 </div>
-				<a href="/">Home</a>
+				<a  href="/">Home</a>
                 <a href="/#">Contact Us</a>
 				<button onClick={()=>setBtnPop(true)} className='about-btn'>About</button>
                     <About trigger={btnPop} setTrigger={setBtnPop}>

@@ -11,7 +11,7 @@ import DescriptionIcon from '@mui/icons-material/Description';
 function displayUplaodTable(){
     console.log("hello");
     return(
-        <Box sx={{marginLeft:"2%",maxWidth:"95%",minHeight:"20rem",backgroundColor:"#F5F5F5"}}>
+        <div className='tableDesign'>
 <table className='table'>
     <tr>
         <th></th>
@@ -21,14 +21,18 @@ function displayUplaodTable(){
         <th>Status</th>
     </tr>
     <tr>
-<td style={{width:"100px",textAlign:"center"}}><DescriptionIcon sx={{fontSize:"5rem"}}/></td>
+<td style={{width:"100px",textAlign:"center"}}><DescriptionIcon sx={{fontSize:"4.0rem"}}/></td>
 <td>Matric certificate</td>
 <td>7 Sep 2022</td>
-<td style={{paddingLeft:'5%'}}><h3 style={{width:"8rem",maxHeight:"7.0rem",borderRadius:"100%",backgroundColor:"skyblue",textAlign:"center"}}>SN</h3></td>
-<td><h4>Upload complete</h4></td>
+<td style={{paddingLeft:'3.3%'}}>
+<h3 
+style={{width:"8rem",height:"4rem",lineHeight:"60px",fontSize:"30px",borderRadius:"100%",
+color:"rgb(145,246,245,1)",backgroundColor:"skyblue",textAlign:"center"}}>SN</h3></td>
+<td><h4 className='tableHeader4'> complete</h4></td>
     </tr>
+
 </table>
-    </Box>
+    </div>
   )
 };
 const welcomeCard=()=>{
@@ -60,8 +64,9 @@ const welcomeCard=()=>{
     )
 };
 const uplaodToBlockchainBoxes=()=>{
+
   return(
-    <Box sx={{height:"100%",width:"50%",alignItems:"flex-start",justifyContent:"space-around",display:"flex",flexDirection:"column"}}>
+    <Box sx={{marginBottom:"10rem",height:"100%",width:"50%",alignItems:"flex-start",justifyContent:"space-around",display:"flex",flexDirection:"column"}}>
         <Boxes color={"#02781E"} title={"Verified"}/>
         <Boxes color={"#9E1215"} title={"Rejected"}/>
         <Boxes color={"#3F3D3F"} title={"Pending"}/>

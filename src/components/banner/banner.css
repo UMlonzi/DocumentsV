@@ -5,7 +5,7 @@
     rgba(69, 155, 255, 0.5),
    rgba(128, 0, 128, 0.5)), url("../../images/how-to-transfer-files-from-pc-to-pc-hero1551645305603.jpg");
     background-repeat: no-repeat;
-    height: 25rem;
+    height: 26rem;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -22,7 +22,6 @@ padding: 2%;
 .separate{
 width: 50%;
 text-align: left;
-background-color: red;
 }
 .para h1 {
   font-family:'Times New Roman', Times, serif;
@@ -48,6 +47,13 @@ background-color: red;
   font-weight: 400;
   
 }
+.separate .line2{
+  width: 25%;
+  height: 1%;
+  background-color: rgba(246, 177, 0, 1);
+margin: 1.8%;
+right: 30%
+}
 .separate h1{
   font-family:'Times New Roman', Times, serif;
     padding-top: 2%;
@@ -62,29 +68,18 @@ background-color: red;
 .documents{
   width: 10%;
 text-align: left;
-background-color: black;
-margin: 2%;
 right: 40%;
 }
-/* .inside h1{
-  padding-top: -12%;
-  margin-top: -12%;
-  padding-right: 10%;
-  background-color: aquamarine;
-} */
+
 .tick{
   width: 10%;
   text-align: left;
-  background-color: black;
-  margin: 1%;
   right: 40%;
 }
 .legal{
   width: 10%;
   text-align: left;
-  margin: 2%;
   right: 40%;
-  background-color: black;
 
 }
 .inside{
@@ -94,4 +89,10 @@ right: 40%;
 .img-text{
   display: flex;
   flex-direction: row;
+}
+.img-text h2{
+  padding-top: 2%;
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.8rem;
 }

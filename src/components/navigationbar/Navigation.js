@@ -9,7 +9,7 @@ function Navigation () {
 	const showNavbar = () => {
 		navRef.current.classList.toggle("responsive_nav");
 	};
-
+	
 	return (
 		<header>
 			{/* <h3>LOGO</h3> */}

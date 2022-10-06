@@ -1,24 +1,30 @@
-
 import './banner.css'
  import { useNavigate } from "react-router-dom";
  import React,{useState,useRef} from 'react';
  import About from '../../pages/about/About';
+ import documents from '../../images/download-removebg-preview.png';
+ import tick from '../../images/132-1328843_orange-transparent-checkmark-orange-check-box-png-removebg-preview.png';
+ import legal from '../../images/5-58704_legal-operations-law-orange-icon-png-removebg-preview.png';
+
 
 function Banner(){
     const navRef = useRef();
     const[btnPop, setBtnPop]=useState(false)
 const navigate = useNavigate();    
     return (
-        <>
+    
         <div className='backgroundBanner'>
-            <div>
-            <h5 className='hBanner'>
+        
+        <div className='para'>
+            <h1>
             Docuify
-            </h5>
-            <div className='line2' />
-            <p className='para'>Our company solves existing problem of <br></br>  verifying  the  validity of digital assets 
+            </h1>
+            <div>
+            {/* <div className='line2' /> */}
+            <p>Our company solves existing problem of <br></br>  verifying  the  validity of digital assets 
             <br></br>  at a very low implementation cost.... 
             </p>
+            </div>
 
             <button onClick={()=>setBtnPop(true)}  className='ReadMore'>
          Read More
@@ -33,20 +39,34 @@ const navigate = useNavigate();
                          </p>
                          </div>
                      </About>
-            </div>
-            <div>
-         <h5 className='header'>
+         </div>
+            <div className='separate'>
+         <h1>
                Why Our Clients Choose Us
-            </h5>
+            </h1>
+            <div className='inside'>
+                <div className='img-text'>
+            <img className='documents'   src={documents} alt="documents"/>
+            <h1>hvhjvjhv</h1>
+            </div>
+            <div className='img-text'>
+            <img className='tick'   src={tick} alt="tick"/>
+            <h1>hvhjvjhv</h1>
+            </div>
+            <div className='img-text'>
+            <img className='legal'   src={legal} alt="legal"/>
+            <h1>hvhjvjhv</h1>
+            </div>
+            </div>
+           
+
+            
+
             </div>
            
       
        
     </div>
-                
-          
-         
-    </>
   )
 }
 

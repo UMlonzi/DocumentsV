@@ -18,7 +18,9 @@
     rgba(128, 0, 128, 0.5),
     rgba(69, 155, 255, 0.5) ), url("../../images/55c580174d15022518aa8e079905f6d1.jpg");
     position: fixed;
+	background-repeat: no-repeat;
 	display: flex;
+	background-size: cover;
 	align-items: center;
 	justify-content: space-between;
 	height: 80px;

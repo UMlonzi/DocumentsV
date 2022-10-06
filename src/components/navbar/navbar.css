@@ -57,6 +57,8 @@ nav {
 }
 .popup-details p{
     color: black;
+	font-size: 30px;
+	margin-top: 4%;
 }
 .about-btn{
     border: none;

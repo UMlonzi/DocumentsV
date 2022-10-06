@@ -38,7 +38,8 @@ color:"rgb(145,246,245,1)",backgroundColor:"skyblue",textAlign:"center"}}>SN</h3
 const welcomeCard=()=>{
     return(
         <>
-        <Box style={{height:"100%",width:"50%",display:"flex",alignItems:"center",flexDirection:"column",justifyContent:"space-around"}}>       
+        
+        <Box style={{height:"100%", width:"50%",display:"flex",alignItems:"center",flexDirection:"column",justifyContent:"space-around"}}>       
 <Box sx={{display:"flex" ,borderBottom:"2px solid rgba(128,128,128,0.4)",padding:"7px",minWidth:"300px",maxWidth:"800px"
 ,height:"200px",backgroundColor:"#ECF5FF",alignItems:"center",justifyContent:"space-between",flexDirection:"row"}}>
     <Box 

@@ -23,8 +23,13 @@ function Navigation () {
 			<div className='log'>
 			<img className='logo2'   src={logo} alt="logo"/>
 							</div>
-			<a className="a1" href="/">Home</a>
-			<a className="a1" href="/#">Contact Us</a>
+			<a className="a2" href="/">Home</a>
+			{/* <a className="a1" href="/#">Contact Us</a>		 */}
+				<a className="a1" href="/">Dashboard</a>
+				<a className="a1" href="/">Profile</a>
+				<a className="a1" href="/">Logout</a>
+
+
 			<button onClick={()=>setBtnPop(true)} className='aboutbtn'>About</button>
 				<About trigger={btnPop} setTrigger={setBtnPop}>
 					 <div className='popup-details'>
@@ -36,7 +41,6 @@ function Navigation () {
 					 </p>
 					 </div>
 				 </About> 
-			<a className="a1" href="/Authentication">Login</a>
 			<button
 				className="nav-btn nav-close-btn"
 				onClick={showNavbar}>

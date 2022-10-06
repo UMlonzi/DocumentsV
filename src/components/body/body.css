@@ -1,8 +1,8 @@
 .backgroundimg{
     background-image: 
     linear-gradient(45deg,
-    rgba(69, 155, 255, 0.5),
-   rgba(128, 0, 128, 0.5)), url("../../images/55c580174d15022518aa8e079905f6d1.jpg");
+    rgba(128, 0, 128, 0.5),
+    rgba(69, 155, 255, 0.5) ), url("../../images/55c580174d15022518aa8e079905f6d1.jpg");
     background-repeat: no-repeat;
     height: 35rem;
     width: 100%;

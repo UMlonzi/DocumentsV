@@ -20,7 +20,9 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	height: 80px;
+	/* height: 80px; */
+	height: 12%;
+	width: 100%;
 	padding: 0 2rem;
 	/* background-color: var(--mainColor); */
     background-image: url('../../assest/block.jpg');
@@ -60,14 +62,14 @@ header img{
     height: auto;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1440px) {
 	header .nav-btn {
 		visibility: visible;
 		opacity: 1;
 	}
 
     header img{
-        width:10%;
+        width:5%;
         height: auto;
     }
 

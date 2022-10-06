@@ -5,7 +5,6 @@ import { getAuth } from "firebase/auth";
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
-
 const firebaseConfig={
     apiKey: "AIzaSyCrXaSjWNg9JDyPrc3sR18RY2jRWBA4IJs",
     authDomain: "block-chain-7bda7.firebaseapp.com",

@@ -13,7 +13,7 @@
 	--textColor: #eee;
 }
 
-header {
+header{
     position: fixed;
 	display: flex;
 	align-items: center;

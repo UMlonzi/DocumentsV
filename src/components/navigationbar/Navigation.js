@@ -25,8 +25,8 @@ function Navigation () {
 							</div>
 			<a className="a2" href="/">Home</a>
 			{/* <a className="a1" href="/#">Contact Us</a>		 */}
-				<a className="a1" href="/">Dashboard</a>
-				<a className="a1" href="/">Profile</a>
+				<a className="a1" href="/Dashboard">Dashboard</a>
+				<a className="a1" href="/Profile">Profile</a>
 				<a className="a1" href="/">Logout</a>
 
 

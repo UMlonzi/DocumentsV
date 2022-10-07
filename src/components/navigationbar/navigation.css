@@ -1,0 +1,148 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+}
+
+:root {
+	--mainColor:#459BFF;
+	--mainColorLight: #5767aa;
+	--secondaryColor: #db2b39;
+	--textColor: #eee;
+}
+
+.backgroundimg1 header{
+    background-image: 
+    linear-gradient(45deg,
+    rgba(128, 0, 128, 0.5),
+    rgba(69, 155, 255, 0.5) ), url("../../images/55c580174d15022518aa8e079905f6d1.jpg");
+    position: fixed;
+	background-repeat: no-repeat;
+	display: flex;
+	background-size: cover;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	/* padding-left: 66%; */
+    width: 100%;
+    height: 7rem;
+    margin-bottom: 10%;
+	color: var(--textColor);
+}
+
+.nav1 .a1 {
+    margin: 2rem;
+	position: relative;
+	right: -35%;
+	color: var(--textColor);
+	text-decoration: none;
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+.nav1 .a2 {
+    margin: 2rem;
+	position: relative;
+	right: -26%;
+	color: var(--textColor);
+	text-decoration: none;
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+
+.nav1 .a1:hover {
+	color: #f6b100;
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+header div,
+.nav1 {
+	display: flex;
+	align-items: center;
+}
+.popup-details p{
+    color: black;
+}
+.aboutbtn{
+    border: none;
+    background: none;
+    color: var(--textColor);
+    font-size: xx-large;
+    font-weight: bold;
+	position: relative;
+	right: 13%;
+
+}
+ header .logo2 {
+    margin-top: 1%;
+	height: 5%;
+	width:27% ;
+
+}
+
+@media only screen and (max-width: 1024px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+	.about-btn{
+		border: none;
+		background: none;
+		color: var(--textColor);
+		font-size: xx-large;
+		font-weight: bold;
+		position: relative;
+		left: 10%;
+	}
+
+	header nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: var(--mainColor);
+		transition: 1s;
+		transform: translateY(-100vh);
+	}
+
+	header .responsive_nav {
+		transform: none;
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+
+		nav .a1 {
+            margin:  1rem;
+            color: var(--textColor);
+            text-decoration: none;
+            font-size: xx-large;
+            font-weight: bold;
+			position: relative;
+			left: 10%;
+        }
+	
+}

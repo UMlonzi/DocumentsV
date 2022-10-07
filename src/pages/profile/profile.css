@@ -50,7 +50,7 @@
     width: 80%;
     height: 75%;
     left:10%;
-    top: 20%;
+    top: 25%;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -77,7 +77,7 @@
     border-color:#808080;
     border-radius: 20px;
     width: 40%;
-    height: 10%;
+    height: 8%;
     top:6%;
     left: 10%;
     color:#808080;
@@ -92,7 +92,7 @@
     border-color:#808080;
     border-radius: 20px;
     width: 40%;
-    height: 10%;
+    height: 8%;
     top:31%;
     left: 10%;
     color:#808080;
@@ -106,7 +106,7 @@
     border-color:#808080;
     border-radius: 20px;
     width: 40%;
-    height: 10%;
+    height: 8%;
     top:6%;
     left: 60%;
     color:#808080;
@@ -121,7 +121,7 @@
     border-color:#808080;
     border-radius: 20px;
     width: 40%;
-    height: 10%;
+    height: 8%;
     top:31%;
     left: 60%;
     color:#808080;
@@ -135,7 +135,7 @@
     border-color:#808080;
     border-radius: 20px;
     width: 40%;
-    height: 10%;
+    height: 8%;
     top:60%;
     left: 60%;
     color:#808080;
@@ -177,7 +177,7 @@
 
 .main-container .inner-container .form .input1 h4{
     font-size: 16px;
-    top:-7%; 
+    top:-1%; 
     left:10%;
     position:absolute; 
     color:#808080;
@@ -187,7 +187,7 @@
 
 .main-container .inner-container .form .input2 h4{
     font-size: 16px;
-    top:18%; 
+    top:25%; 
     left:10%;
     position:absolute; 
     color:#808080;
@@ -196,7 +196,7 @@
 
 .main-container .inner-container .form .input3 h4{
     font-size: 16px;
-    top:-7%; 
+    top:-1%; 
     left:60%;
     position:absolute; 
     color:#808080;
@@ -205,7 +205,7 @@
 
 .main-container .inner-container .form .input4 h4{
     font-size: 16px;
-    top:18%; 
+    top:25%; 
     left:60%;
     position:absolute;  
     color:#808080;
@@ -214,7 +214,7 @@
 
 .main-container .inner-container .form .input5 h4{
     font-size: 16px;
-    top:45%; 
+    top: 54%; 
     left:60%;
     position:absolute;  
     color:#808080;
@@ -223,7 +223,7 @@
 
 .main-container .inner-container .form .input6 h4{
     font-size: 16px;
-    top:45%; 
+    top: 54%; 
     left:10%;
     position:absolute;  
     color:#808080;
@@ -234,19 +234,19 @@
 
 .main-container .inner-container .form button { 
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1em;
     line-height: 10%;
     position: absolute;
-    width: 10%;
-    height: 10%;
+    width: 14%;
+    height: 8%;
     top: 80%;
     right:-1%;
     background: #00B2FF;
     color:#FFFF;
     border:none;
     box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
+    border-radius: 10px;
     font-family: 'Montserrat', sans-serif; 
 }
 
@@ -291,8 +291,10 @@
     font-size: 1em;
     line-height: 10%;
     position: absolute;
-    width: 15%;
-    height: 10%;
+    /* width: 15%;
+    height: 10%; */
+    width: 14%;
+    height: 8%;
     left: 10%;
     right:-1%;
     top: 60%;
@@ -307,6 +309,8 @@
 }
 
 .main-container .inner-container .form .input6 .uploadbtn h5 {
+    position: relative;
+    padding-top: 12%;
     font-style: normal;
     font-weight: 500;
     font-size: 1em;
@@ -316,5 +320,24 @@
 .main-container .inner-container .form .input6 input{
     display: none;
     margin-bottom: 1px;
+    position:absolute;
 
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .main-container .inner-container .form .input6 .uploadbtn h5 {
+        position: relative;
+        padding-top: 25%;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1em;
+    }
+
+    .nav-bar-menu{
+        position: absolute;
+        top: 3px;
+        z-index: 2;
+        width: 100%;
+    }
 }

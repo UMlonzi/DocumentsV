@@ -15,6 +15,12 @@
     display: flex;
     flex-direction: column;
 }
+.nav-bar-menu{
+    position: absolute;
+    top: 10px;
+    z-index: 2;
+    width: 100%;
+}
 
 /* .main-container .Logo h1{
     position: absolute;

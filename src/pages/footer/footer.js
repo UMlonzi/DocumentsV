@@ -1,44 +1,44 @@
 import React from "react";
-import "./Footer.css";
+import "./footer.css";
+//import Logo from '../../assest/icon.png'
 
 function Footer() {
   return (
     <div className="main-footer">
       <div className="container">
         <div className="row">
+          
           {/* Column1 */}
           <div className="col">
-            <h4>THICC MEMES INC</h4>
+            <h1>About Us</h1>
             <h1 className="list-unstyled">
-              <li>342-420-6969</li>
-              <li>Moscow, Russia</li>
-              <li>123 Streeet South North</li>
+              <li>Dashboard</li>
+              <li>Login</li>
             </h1>
           </div>
           {/* Column2 */}
           <div className="col">
-            <h4>Stuff</h4>
-            <ui className="list-unstyled">
-              <li>DANK MEMES</li>
-              <li>OTHER STUFF</li>
-              <li>GUD STUFF</li>
-            </ui>
+            <h4>Support</h4>
+            <ul className="list-unstyled">
+              <li>Help Center</li>
+              <li>Blockchain Information</li>
+              <li>FAQs</li>
+            </ul>
           </div>
           {/* Column3 */}
           <div className="col">
-            <h4>WELL ANOTHER COLUMN</h4>
-            <ui className="list-unstyled">
-              <li>DANK MEMES</li>
-              <li>OTHER STUFF</li>
-              <li>GUD STUFF</li>
-            </ui>
+            <h4>CONACT INFO</h4>
+            <ul className="list-unstyled">
+              <li>Phone:0116307457</li>
+              <li>Email:company@email.com</li>
+              <li>Location:100 Rissik Street, JHB, ZA</li>
+            </ul>
           </div>
         </div>
         <hr />
         <div className="row">
           <p className="col-sm">
-            &copy;{new Date().getFullYear()} THICC MEMES | All rights reserved |
-            Terms Of Service | Privacy
+            &copy;{new Date().getFullYear()} Docuify All rights reserved
           </p>
         </div>
       </div>
@@ -47,3 +47,4 @@ function Footer() {
 }
 
 export default Footer;
+

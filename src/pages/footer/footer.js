@@ -1,6 +1,7 @@
 import React from "react";
 import "./footer.css";
 //import Logo from '../../assest/icon.png'
+import logo from '../../images/logo.png'
 
 function Footer() {
   return (
@@ -11,7 +12,7 @@ function Footer() {
           {/* Column1 */}
           <div className="col">
             <h1>About Us</h1>
-            <h1 className="list-unstyled">
+            <h1>
               <li>Dashboard</li>
               <li>Login</li>
             </h1>

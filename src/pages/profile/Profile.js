@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 import './profile.css';
+import Navigation from "../../components/navigationbar/Navigation";
 
 
 
@@ -12,9 +13,9 @@ function Profile() {
 
   return (
     <div className='main-container'>
-
-
-
+        <div className="nav-bar-menu">
+            <Navigation/>
+        </div>
     <div className='inner-container'>
 
         <div className='form'>

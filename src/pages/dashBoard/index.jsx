@@ -2,7 +2,7 @@ import React from 'react'
 import Tablecomponent from '../../component/upload/uplaodload'
 import Navigation from '../../components/navigationbar/Navigation'
 // import Navbar from '../../components/navbar/Navbar'
-import Footer from '../../pages/footer/Footer';
+import Footer from '../footer/footer';
 const DashBoardPage = () => {
   return (
     <div style={{width:"100vw",height:"100vh",backgroundColor:"white"}}>

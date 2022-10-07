@@ -33,7 +33,7 @@ function Navbar(){
                          </p>
                          </div>
                      </About>
-                <a href="/Footer">Contact Us</a>
+                <a href="/#">Contact Us</a>
                 
 				 
 				<a href="/Authentication">Login</a>

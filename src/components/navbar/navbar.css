@@ -7,7 +7,7 @@
 }
 
 :root {
-	--mainColor:#459BFF;
+	--mainColor:red;
 	--mainColorLight: #5767aa;
 	--secondaryColor: #db2b39;
 	--textColor: #eee;
@@ -26,7 +26,7 @@
 nav a {
 	margin: 2rem;
 	position: relative;
-	right: -40%;
+	right: -45%;
 	color: var(--textColor);
 	text-decoration: none;
     font-size: xx-large;
@@ -67,7 +67,7 @@ nav {
     font-size: xx-large;
     font-weight: bold;
 	position: relative;
-	right: -40%;
+	right: -45%;
 
 }
  .header1 .logo {
@@ -127,5 +127,9 @@ nav {
 			position: relative;
 			left: 10%;
         }
-	
+		.header1 .logo {
+			margin-top: 10%;
+			height: 5%;
+			width:40% ;
+		}
 }

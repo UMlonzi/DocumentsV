@@ -2,8 +2,8 @@
 .backgroundBanner{
     background-image: 
     linear-gradient(45deg,
-    rgba(69, 155, 255, 0.5),
-   rgba(128, 0, 128, 0.5)), url("../../images/how-to-transfer-files-from-pc-to-pc-hero1551645305603.jpg");
+    rgba(128, 0, 128, 0.5),
+    rgba(69, 155, 255, 0.5)), url("../../images/how-to-transfer-files-from-pc-to-pc-hero1551645305603.jpg");
     background-repeat: no-repeat;
     height: 26rem;
     width: 100%;

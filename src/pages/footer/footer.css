@@ -6,3 +6,23 @@
   bottom: 0;
   width: 100%;
 }
+
+.col{
+  float: left;
+  width: 25%;
+  text-decoration: none;
+  
+}
+.row:after {
+  content: "";
+ display: table;
+  clear: both;
+}
+ .list-unstyled {
+  text-decoration: none;
+  text-align: left;
+ }
+ li{
+  list-style: none;
+ }
+ 

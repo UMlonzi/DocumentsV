@@ -1,6 +1,6 @@
 .main-footer {
   color: #ffffff;
-  background-color: #808080;
+  background-color: #A0A0A0;
   padding-top: 3em;
   position: relative;
   bottom: 0;
@@ -11,6 +11,7 @@
   float: left;
   width: 25%;
   text-decoration: none;
+  text-align: left;
   
 }
 .row:after {
@@ -24,5 +25,15 @@
  }
  li{
   list-style: none;
+  padding: 0.5%;
  }
  
+.logo1{
+   margin-bottom:1%;
+   height:5%;
+   width:27%;
+}
+.col-sm{
+  text-align: right;
+
+}

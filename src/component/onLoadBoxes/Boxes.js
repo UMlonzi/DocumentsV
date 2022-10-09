@@ -14,4 +14,4 @@ const Boxes = ({color="gray",title}) => {
    </div>
   )
 };
-export default Boxes
+export default Boxes;

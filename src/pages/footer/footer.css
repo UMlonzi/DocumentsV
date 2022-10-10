@@ -48,3 +48,23 @@
   padding: 6%;
   padding-left: 0%;
 }
+@media only screen and (min-width: 512px) {
+  .main-footer
+  .col
+  .col-sm
+  .iconS
+  .social-column-container
+  .logo1 {
+    display: none;
+  }
+}
+/* Mobile */
+.main-footer
+.col-sm
+.colS
+.col-sm
+.logo1{
+  width: 100px;
+  height: auto;
+  display: inline-block;
+  margin-left: 50px;

@@ -1,6 +1,7 @@
 import React from 'react';
-import nft from './nft.jpg';
+import {FaBars,FaTimes} from 'react-icons/fa'
 
+<<<<<<< HEAD
 const Modal = ({ open, onClose }) => {
   if (!open) return null;
   return (
@@ -30,9 +31,19 @@ const Modal = ({ open, onClose }) => {
             </button>
           </div>
         </div>
+=======
+import './about.css'
+
+function About(props) {
+  return (props.trigger)?(
+    <div className='popup'>
+      <div className='popup-inner'>
+        <FaTimes  className='close-btn' onClick={()=>props.setTrigger(false)}>close</FaTimes>
+        {props.children}
+>>>>>>> c5b2b6552c30df6212c71b70de2e24207e0f0fe7
       </div>
     </div>
-  );
-};
+  ):'';
+}
 
-export default Modal;
+export default About

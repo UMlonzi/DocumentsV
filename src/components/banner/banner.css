@@ -1,0 +1,207 @@
+
+.backgroundBanner{
+    background-image: 
+    linear-gradient(45deg,
+    rgba(128, 0, 128, 0.5),
+    rgba(69, 155, 255, 0.5)), url("../../images/how-to-transfer-files-from-pc-to-pc-hero1551645305603.jpg");
+    background-repeat: no-repeat;
+    height: 26rem;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+
+   
+}
+.para{
+width: 50%;
+text-align: left;
+padding: 2%;
+margin: 2%;
+}
+.separate{
+width: 50%;
+text-align: left;
+}
+.para h1 {
+  font-family:'Times New Roman', Times, serif;
+  color:white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 3.1rem;
+  margin-left: 4%;
+
+
+}
+.para p{
+  margin: 4%;
+  right: 40%;
+  color:white;
+
+}
+.ReadMore{
+  width: 23%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 2rem;
+  color: whitesmoke;
+  border-color:whitesmoke;
+  background-color: transparent;
+  border-radius: 58px;
+  font-weight: 400;
+  margin-left: 4%;
+
+  
+}
+.separate .line2{
+  width: 25%;
+  height: 1%;
+  background-color: rgba(246, 177, 0, 1);
+margin: 1.8%;
+right: 30%
+}
+.separate h1{
+  font-family:'Times New Roman', Times, serif;
+    padding-top: 2%;
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3.1rem;
+}
+.ReadMore:hover {
+  background-color:rgba(0, 178, 255, 1);
+
+}
+.documents{
+  width: 10%;
+text-align: left;
+right: 40%;
+}
+
+.tick{
+  width: 10%;
+  text-align: left;
+  right: 40%;
+}
+.legal{
+  width: 10%;
+  text-align: left;
+  right: 40%;
+
+}
+.inside{
+  display: flex;
+  flex-direction: column;
+}
+.img-text{
+  display: flex;
+  flex-direction: row;
+}
+.img-text h2{
+  padding-top: 2%;
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.8rem;
+}
+@media only screen and (max-width: 1024px) {
+  .backgroundBanner{
+    background-image: 
+    linear-gradient(45deg,
+    rgba(69, 155, 255, 0.5),
+   rgba(128, 0, 128, 0.5)), url("../../images/how-to-transfer-files-from-pc-to-pc-hero1551645305603.jpg");
+    background-repeat: no-repeat;
+    height: fit-content;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   
+}
+
+	.para{
+width: 100%;
+text-align: left;
+padding: 2%;
+}
+.separate{
+width: 100%;
+text-align: left;
+padding: 2%;
+}
+.para h1 {
+  font-family:'Times New Roman', Times, serif;
+  color:white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 2rem;
+  margin-left: 4%;
+
+
+}
+.para p{
+  margin: 4%;
+  right: 40%;
+  color:white;
+
+}
+.ReadMore{
+  width: 50%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 2rem;
+  color: whitesmoke;
+  border-color:whitesmoke;
+  background-color: transparent;
+  border-radius: 58px;
+  font-weight: 400;
+  margin-left: 4%;
+
+  
+}
+.separate .line2{
+  width: 5%;
+  height: 2.2%;
+  background-color: rgba(246, 177, 0, 1);
+}
+.separate h1{
+  font-family:'Times New Roman', Times, serif;
+    padding-top: 2%;
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+}
+.ReadMore:hover {
+  background-color:rgba(0, 178, 255, 1);
+
+}
+.documents{
+  width: 10%;
+text-align: left;
+right: 40%;
+}
+
+.tick{
+  width: 10%;
+  text-align: left;
+  right: 40%;
+}
+.legal{
+  width: 10%;
+  text-align: left;
+  right: 40%;
+
+}
+.inside{
+  display: flex;
+  flex-direction: column;
+}
+.img-text{
+  display: flex;
+  flex-direction: row;
+}
+.img-text h2{
+  padding-top: 2%;
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.4rem;
+}
+}
